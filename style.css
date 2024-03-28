@@ -1,0 +1,71 @@
+body{background-color: #46295A;}
+
+.logo img{max-width: 100%;
+    max-height: 100%;
+    width: 35%;
+    height: auto;
+    border-radius: 100%;
+    border: solid;}
+
+h1{ text-align: center;
+    color: #46295A;
+    background-color: green;
+    border: solid white;
+    border-radius: 200%;
+    font-size: 300%;
+    font-weight: bold;
+    padding: 2%;
+    display: flex;
+    justify-content: center;}
+
+h2{ font-size: 200%;
+    font-weight: bold;}
+
+.produtos{ text-align: center;
+    color: white;}
+#produtos{color: whitesmoke;}
+
+h3{ font-size: 150%;}
+
+.logo{display: flex;
+    justify-content: space-around;
+    margin: 5%;}
+
+.link{display: flex;
+    justify-content: space-around;}
+
+a{color: white;
+    font-size: 150%;
+    text-decoration: none;}
+
+p{font-size: 100%;}
+
+.link a:hover{color: green;
+    transform: scale(1.5);
+    transition: transform 1s;}
+
+#produtos{display: flex;
+    flex-direction: column;
+    justify-content: space-around;}
+
+.acaipower img, .acairoyale img, .acaipixelado img, .acaistealth img, .acaiquest img, .acaiwarp img, .acaicritical img, .acaigame img, .acaispeedrun img, .acaiboss img {float: left; padding: 1%; margin: 1%;}
+
+section p {margin: 7%;}
+
+section img {border-radius: 100%;}
+
+section img:hover{transform: scale(1.4);
+    transition: transform 1s;}
+
+#contato{ text-align: center;
+    color: whitesmoke;}
+
+.contato img:hover{ transform: scale(1.1);
+    transition: transform 1s;}
+
+footer{background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.1%;}
+
+footer p{font-size: 70%;}
