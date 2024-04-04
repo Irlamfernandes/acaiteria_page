@@ -38,7 +38,7 @@ a{color: white;
     font-size: 150%;
     text-decoration: none;}
 
-p{font-size: 100%;}
+p{font-size: 150%;}
 
 .link a:hover{color: green;
     transform: scale(1.5);
@@ -69,7 +69,14 @@ footer{background-color: black;
     padding: 0.1%;
     border-radius: 20px;}
 
-footer p{font-size: 70%;}
+footer p{font-size: 100%;}
+
+footer a{font-size: medium;}
+
+footer a:hover{ color: greenyellow;}
+
+footer strong{color: greenyellow;
+font-weight: bolder;}
 
 iframe{margin: 1% 0 1% 0;
     padding: 1% 0 1% 0;}
