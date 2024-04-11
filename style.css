@@ -87,3 +87,10 @@ iframe{margin: 1% 0 1% 0;
     padding: 1% 0 1% 0;}
 
 .sobre p {font-size: 150%;}
+
+@media only screen and (max-width: 700px){
+    #produtos img{width: 30%;
+    padding: 5%;}
+
+    .contato img{width: 10%;}    
+}
